@@ -9,8 +9,6 @@ This involves:
     3. Retriving similar chunks in vector database (along with the original english chunks) - IMPORTANT
         i. uses cosine similarity algorithm to find similar chunks
 
-    4. Feeding prompt and retrived chunks to LLM
-
 '''
 
 from langchain_chroma import Chroma
